@@ -1,0 +1,21 @@
+
+#wrapper { 
+	width:100%;
+	margin:0 auto;
+}
+
+#zoom-slider {
+    width:840px;
+	height:420px;
+    overflow:hidden;
+	position:relative;
+	margin:0 auto;
+}
+
+#zoom-slider img {
+	display:none;
+	position:absolute;
+	top:0px;
+	z-index:1;
+	image-rendering: optimizeQuality;
+}

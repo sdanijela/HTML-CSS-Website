@@ -1,0 +1,577 @@
+* {
+	padding:0;
+	margin: 0;	
+}
+main, #wrapper, section, nav, footer {
+	display:block;
+}
+body {
+	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+header {
+	width:100%;
+	height:auto;
+	background-color: #fff; 
+	border-top: 15px solid #333300;
+}
+#slika {
+	width: 170px;
+	height:90px;
+	float: left;
+	background-color: white;
+	margin-bottom: 10px;
+	margin-left:100px;
+	margin-top:10px	
+}
+#slika img {
+	width: 100%;
+}
+
+#logo {
+	min-width: 300px;
+	height:20px;
+	display: inline;
+	background-color: white;
+}
+
+#logo .log {
+	width: 20%;
+	margin-top:50px;
+}
+
+header nav {
+	clear: both;
+	text-align: center;
+	background-color: #333300;
+	height:25px;
+}
+
+header nav ul {
+	list-style: none;
+	padding:5px;
+}
+
+header nav li {
+	display: inline;	
+}
+
+header nav li a{
+	text-decoration:none;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #ccc;
+	text-transform:uppercase;
+	margin: 50px;
+}
+
+header nav li a:hover {
+	color: #1F1E1E;
+	text-shadow: 0 0 3px #fff;
+}
+
+/*main*/
+main {
+	margin: 0 auto;
+	width: 97%;
+	max-width: 850px;
+	height: auto;
+	background-color: white;
+}
+
+
+/*index-main*/
+#centralni, #wrapper {
+	width: 100%;
+}
+
+/*dole*/
+#dole{
+	clear:both;
+}
+
+#dole .slogan {
+	width:100%;
+	background: white;
+	margin: 0 auto;
+	margin-top:1%; 
+}
+.slogan img {
+	width: 80%;
+	padding-left:70px;
+}
+
+.enterijer h2 {
+	float: left;
+	margin-left:12%;
+	margin-top:20px;
+	padding:10px;
+}
+
+.eksterijer h2 {
+	float: right;
+	margin-right:12%;
+	margin-top:20px;
+	padding:10px;
+}
+
+.enterijer h2 a, .eksterijer h2 a {
+	text-decoration:none;
+	text-transform: uppercase;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style:normal;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	letter-spacing: -1px;
+}
+
+.enterijer h2 a:hover, .eksterijer h2 a:hover{
+	color: #1F1E1E;
+	text-shadow: 0 0 2px #666;
+}
+
+.enterijer .kocka1 {
+	float:left;
+	width:150px;
+	height:150px;
+	background-color: white;
+	margin-left:10px;
+	margin-top:40px;
+	margin-bottom:40px;
+	overflow:hidden;
+	position:relative;
+}
+
+.enterijer .kocka1 img{
+	width:100%;
+	position:absolute;
+	transition: opacity 1s ease-in-out;
+}
+
+.enterijer .kocka1 img:hover {
+	opacity:0;
+}
+	
+.eksterijer .kocka2 {
+	float:right;
+	width:150px;
+	height:150px;
+	background-color: white;
+	margin-right:10px;
+	margin-top:40px;
+	margin-bottom:40px;
+	overflow:hidden;
+	position:relative;
+}
+
+.eksterijer .kocka2 img{
+	width:100%;
+	position:absolute;
+	transition: opacity 1s ease-in-out;
+}
+
+.eksterijer .kocka2 img:hover {
+	opacity:0;
+}
+
+/*eksterijer i enterijer*/
+#top h1{
+	width: 200px;
+	height:70px;
+	float: left;
+	background-color: white;
+	margin-bottom: 20px;
+	margin-left:10px;
+	margin-top:20px	
+}
+
+#top img {
+	width: 100%;
+	padding-left: 5px;
+	padding-bottom:10px;
+}
+#top h2 {
+	clear:both;
+	float: left;
+	padding-top:10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing:-0.5px;
+	font-stretch:condensed;
+}
+#top p {
+	float:left;
+	width:500px;
+	margin-left: 50px;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+#bottom {
+	clear:both;
+	margin-bottom: 100px;
+}
+
+#bottom p, .block1 .name {
+	margin:5px;
+	margin-bottom:10px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding:5px;
+}
+
+.block {
+	border: 2px solid #060;
+	margin-left: 30px;
+	margin-top:50px;
+	width:200px;
+	height:250px;
+	text-align:center;
+	padding:5px;
+	display:inline-block;
+	overflow:hidden;
+}
+
+.block .slika {
+	width:190px;
+	height: 180px;
+	margin:0 auto;
+}
+
+.block .slika img {
+	width:100%;
+	transition: all 0.3s ease;
+}
+
+.block .slika img:hover {
+	padding:0;
+	width:105%;
+	transform:scale(1.1)
+}
+
+#bottom a {
+	text-decoration:none;
+	color:black;
+}
+
+#bottom a:hover {
+	color: #0C0;
+	transition: .4s;
+}
+
+
+/*aside*/
+
+aside {
+	width:170px;
+	height:auto;
+	border: 3px solid #060;
+	border-radius: 10px;
+	background-color: white;
+	padding: 5px;
+	position: fixed;
+	right: 30px;
+	top: 155px;
+}
+
+#naslov p {
+	margin-top:5px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	font-stretch:condensed;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+#stavke {
+	display:block;
+}
+
+#stavke p {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	font-stretch:condensed;
+	font-weight:normal;
+	text-transform:inherit;
+	padding:5px;
+	margin-left:10px;
+	margin-bottom:10px;	
+	display:block;
+	border-top: 1px solid #0F0;
+}
+
+#stavke a {
+	text-decoration:none;
+	color:black;
+}
+
+#stavke a:hover {
+	color:#060;
+	font-weight:bold;
+}
+
+
+/*kontakt, o nama*/
+main h3 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	padding: 5px;
+	margin-top:20px;
+}
+main h4 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding: 5px;
+	margin-top:5px;
+}
+
+#info p, #kontakt p {
+	padding: 5px;	
+}
+
+#bottom h3 {
+	font-size:14px;
+	margin-bottom:10px;
+}
+
+#info {
+	margin-bottom:30px
+}
+
+.broj, .mail {
+	margin-left: 400px
+}
+.adresa {
+	margin-left: 100px;
+}
+
+#form {
+	margin-top: 20px;
+	margin-bottom:40px;
+}
+
+#form p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:13px;
+	padding: 5px;
+}
+
+table {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding: 3px;
+	margin:0;
+	margin-top:20px;
+	border: none;	
+}
+
+table input {
+	border: 1px thin #060;
+	border-radius: 3px;
+}
+
+table td {
+	border:none;
+	padding:3px;
+}
+
+table #submit{
+	padding:5px;
+	margin:10px;
+	border-radius: 3px;
+}
+
+table #submit:hover {
+	background-color: #060;
+	color: white;
+	border-color: #060;
+	border-radius: 3px;
+}
+
+
+/*galerija i katalog*/
+
+
+.naslov a{
+	font-size:18px;
+	text-decoration:none;
+	color:black;
+	padding:20px;
+}
+.naslov a:hover{
+	color: #1F1E1E;
+	text-shadow: 0 0 5px #CCC;
+}
+
+#sekcija {
+	padding-top:10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing:-0.5px;
+	font-stretch:condensed;
+	margin:20px;
+} 
+#list {
+		margin:0 auto
+	}
+ 
+.image {
+	margin-top:60px;
+	margin-bottom: 60px;
+}
+
+.slider0, .slider1, .slider2, .slider3, .slider4{
+	margin-top: 20px
+}
+
+#list {
+	display: inline-block;
+	margin-bottom:20px;
+}
+
+.block1 {
+	border: 2px solid #060;
+	margin-left: 30px;
+	margin-top:50px;
+	width:200px;
+	height:380px;
+	padding:5px;
+	text-align:center;
+	display:inline-block;
+	overflow:hidden;
+}
+
+.block1 .slika {
+	width:190px;
+	height: 180px;
+	margin:0 auto;
+	margin-bottom:30px;
+}
+
+.block1 .slika img {
+	width:100%;
+	transition: all 0.3s ease;
+}
+
+.block1 .slika img:hover {
+	padding:0;
+	width:105%;
+	transform:scale(1.1)
+}
+
+.block1 div ul {
+	list-style:none
+}
+.block1 div li {
+	text-align:left;
+	margin-left:10px;
+}
+
+#strane {
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:30px;
+}
+
+#strane a {
+	text-decoration:none;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight:bold;
+	color: black;
+}
+
+#strane a:hover {
+	color: #060;
+}
+
+/*dugmici*/
+p #controls {
+	margin: 0 auto;
+	padding:5px;
+}
+
+/*dugmici*/
+
+/*footer*/
+
+footer {
+	clear: both;
+	width:100%;
+	background-color:#030;
+	border-top: 2px solid #333300;
+}
+
+footer nav {
+	width:100px;
+	text-align:left;
+	margin-top:5px;
+}
+
+footer .red1 {
+	float:left;
+	margin-left:30%;
+}
+
+footer .red2 {
+	float:right;
+	margin-right:30%;
+}
+
+footer nav ul {
+	list-style:none;
+	
+}
+footer nav li {
+	padding:5px;
+}
+
+footer nav li a {
+	text-decoration:none;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color: #cccccc;
+	margin: 7px;
+}
+
+footer nav a:hover {
+	color: white;
+}
+
+footer .precice, footer p {
+	display:inline;
+}
+
+footer .precice {
+	clear:both;
+	float:left;
+	width: 70px;
+	background-color:#030;
+	margin-left:10px;
+	margin-top:10px;
+}
+
+footer img {
+	width:30%;
+	margin-left:1px;
+}
+
+footer p {
+	clear:both;
+	float: right;
+	font-family: Arial, sans-serif;
+	font-size:11px;
+	margin-bottom:15px;
+	margin-right:20px;
+	color:#CCCCCC;
+}
+

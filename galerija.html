@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Galerija</title>
+<link href="stilovi.css" rel="stylesheet" type="text/css">
+<link href="stil_reponsive.css" rel="stylesheet" type="text/css">
+<link href="default/default.css" rel="stylesheet" type="text/css">
+<script src="jquery-2.1.1.min.js" type="text/javascript"></script>
+<script src="mostslider.min.js"></script>
+</head>
+
+<body>
+
+<header>
+	<section id="slika"><a href="index.html"><img src="Slike/logo/znak.jpg"  alt="znak"/></a></section>
+	<section id="logo"><img src="Slike/logo/logotip.jpg" alt="znak" class="log"></section>
+	<nav>
+    	<ul>
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="katalog_prva.html">Katalog</a></li>
+            <li><a href="galerija.html">Galerija</a></li>
+            <li><a href="o_nama.html">O nama</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+	<section id="sekcija">GALERIJA</section>
+    
+	<section class="image">
+    	<p class="naslov"><a href="dnevni_boravak.html">Dnevna soba</a></p>
+  
+		<div class="slider-wrapper default">
+    		<div class="slider0"> <a href="#"><img src="Slike/galerija/slika1.jpg"></a> <img src="Slike/galerija/slika6.jpg"> <img src="Slike/galerija/slika2.jpg"> <img src="Slike/galerija/slika15.jpg"> <img src="Slike/galerija/slika17.jpg"> <img src="Slike/galerija/slika19.jpg"> <img src="Slike/galerija/slika23.jpg"> <img src="Slike/galerija/slika25.jpg"><img src="Slike/galerija/slika24.jpg" /> </div>
+		</div>   
+    </section>
+    
+    <section class="image">
+    	<p class="naslov"><a href="spavace_sobe.html">Spavaća i dečija soba</a></p>
+        
+    	<div class="slider-wrapper default"> 
+    		<div class="slider1"> <a href="#"><img src="Slike/galerija/slika13.jpg" /></a> <img src="Slike/galerija/slika18.jpg" /> <img src="Slike/galerija/slika4.jpg" /> <img src="Slike/galerija/slika20.jpg" /> <img src="Slike/galerija/slika22.jpg" /> <img src="Slike/galerija/slika27.jpg" /> <img src="Slike/galerija/slika26.jpg" /> <img src="Slike/galerija/slika10.jpg" /> </div>
+		</div>
+        
+	</section>
+    
+    <section class="image">
+    	<p class="naslov"><a href="radna_soba.html">Radna soba i poslovni prostor</a></p>
+        
+    	<div class="slider-wrapper default"> 
+        	<div class="slider2"><a href="#"><img class='opaque' src="Slike/galerija/slika3.jpg" /></a> <img src="Slike/galerija/slika12.jpg" /> <img src="Slike/galerija/slika31.jpg" /> <img src="Slike/galerija/slika32.jpg" /> <img src="Slike/galerija/slika33.jpg" /> <img src="Slike/galerija/slika35.jpg" />
+			</div>
+        </div>
+	
+    </section>
+    
+    <section class="image">
+    	<p class="naslov"><a href="trpezarija.html">Trpezarija i kuhinja</a></p>
+        
+    	<div class="slider-wrapper default"> 
+			<div class="slider3"><a href="#"><img src="Slike/galerija/slika5.jpg" /></a> <img src="Slike/galerija/slika28.jpg" /> <img src="Slike/galerija/slika29.jpg" /> <img src="Slike/galerija/slika34.jpg" /> <img src="Slike/galerija/slika14.jpg" />
+			</div>
+		</div>
+    </section>
+    
+    <section class="image">
+    	<p class="naslov"><a href="eksterijer.html">Uređenje eksterijera</a></p>
+        
+        <div class="slider-wrapper default"> 
+			<div class="slider4"> <a href="#"><img class='opaque' src="Slike/galerija/slika7.jpg"/></a> <img src="Slike/galerija/slika8.jpg" /> <img src="Slike/galerija/slika9.jpg" /> <img src="Slike/galerija/slika11.jpg" /> <img src="Slike/galerija/slika16.jpg" /> <img src="Slike/galerija/slika30.jpg" /> <img src="Slike/galerija/slika36.jpg" /></div>
+	</div>
+	
+    </section>
+
+</main>
+
+<footer>
+    <div id="nav">
+    <nav class="red1">
+    	<ul>
+            <li><a href="o_nama.html">O nama</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+    
+    <nav class="red2">
+    	<ul>
+            <li><a href="#">Saradnici</a></li>
+            <li><a href="dizajneri.html">Dizajneri</a></li>
+        </ul>
+    </nav>
+    <div style="clear:both"></div>
+    </div>
+    
+    <section class="precice">
+    	<a href="#"><img src="Slike/fb.jpg" alt="facebook" /></a><a href="#"><img src="Slike/g+.jpg"alt="google+"/></a><a href="#"><img src="Slike/tweet.jpg" alt="tweet"/></a>
+    </section>
+    
+	<p>Danijela Stojic F1 2/2014 &copy 2015</p>
+
+	<div style="clear:both"></div>
+</footer>
+
+
+<script>
+		$(document).ready(function(){
+			var slider0 = $(".slider0").mostSlider();
+			var slider1 = $(".slider1").mostSlider();
+			var slider2 = $(".slider2").mostSlider();
+			var slider3 = $(".slider3").mostSlider();
+			var slider4 = $(".slider4").mostSlider();
+		});
+</script>
+		
+
+</body>
+</html>
